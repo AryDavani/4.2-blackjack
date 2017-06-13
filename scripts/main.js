@@ -29,11 +29,9 @@ function handValue (hand) {
     }
   } if (value === 21){
     console.log("Blackjack!");
-  }
+    }
   return value;
 }
-
-console.log(handValue(["A", "10"]));
 
 /* -----  Hints ------
 
